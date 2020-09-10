@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zappos.WebAPI", "Zappos.Web
 		{D20ABEF4-ACFF-489D-9185-622B6187B42C} = {D20ABEF4-ACFF-489D-9185-622B6187B42C}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zappos.ServiceLayer", "Zappos.ServiceLayer\Zappos.ServiceLayer.csproj", "{9056EF5F-56DD-459B-BCC1-1785407FC42C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{E08147BB-A4E5-43B2-BF21-46A92B4C2B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E08147BB-A4E5-43B2-BF21-46A92B4C2B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E08147BB-A4E5-43B2-BF21-46A92B4C2B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9056EF5F-56DD-459B-BCC1-1785407FC42C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9056EF5F-56DD-459B-BCC1-1785407FC42C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9056EF5F-56DD-459B-BCC1-1785407FC42C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9056EF5F-56DD-459B-BCC1-1785407FC42C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
