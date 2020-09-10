@@ -4,7 +4,7 @@
     using System.Collections.Generic;
     using System.Text;
 
-    interface IBrandService
+    public interface IBrandService
     {
         void Demo();
     }

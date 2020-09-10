@@ -10,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Zappos.ServiceLayer.ServiceClass;
+using Zappos.ServiceLayer.ServiceInterface;
 
 namespace Zappos.WebAPI
 {
@@ -26,6 +28,7 @@ namespace Zappos.WebAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddTransient<IBrandService, BrandService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
