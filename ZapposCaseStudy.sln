@@ -12,10 +12,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zappos.DataAccess", "Zappos
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zappos.WebAPI", "Zappos.WebAPI\Zappos.WebAPI.csproj", "{E08147BB-A4E5-43B2-BF21-46A92B4C2B6A}"
 	ProjectSection(ProjectDependencies) = postProject
+		{9056EF5F-56DD-459B-BCC1-1785407FC42C} = {9056EF5F-56DD-459B-BCC1-1785407FC42C}
 		{D20ABEF4-ACFF-489D-9185-622B6187B42C} = {D20ABEF4-ACFF-489D-9185-622B6187B42C}
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zappos.ServiceLayer", "Zappos.ServiceLayer\Zappos.ServiceLayer.csproj", "{9056EF5F-56DD-459B-BCC1-1785407FC42C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B03A7B0B-891F-4BCC-B507-E49B4F03A5D3} = {B03A7B0B-891F-4BCC-B507-E49B4F03A5D3}
+		{D20ABEF4-ACFF-489D-9185-622B6187B42C} = {D20ABEF4-ACFF-489D-9185-622B6187B42C}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
