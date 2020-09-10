@@ -23,8 +23,10 @@
             MySqlConnection objMySqlConnection = null;
             if (!string.IsNullOrEmpty(this.ConnectionString))
             {
-                objMySqlConnection = new MySqlConnection(ConnectionString);
-                objMySqlConnection.ConnectionString = this.ConnectionString;
+                objMySqlConnection = new MySqlConnection(ConnectionString)
+                {
+                    ConnectionString = this.ConnectionString
+                };
             }
 
             return objMySqlConnection;
